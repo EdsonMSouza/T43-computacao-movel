@@ -13,8 +13,7 @@
 + Youtube: [EdsonMSouza](https://youtube.com/EdsonMSouza/playlists)
 
 ## Descrição
-* Este material é uma iniciativa independente para auxiliar os alunos, visando facilitar o acesso e o acompanhamento das atividades ministradas via **Google Meet**. Portanto, **não se caracteriza como material oficial da instituição.**
-* Todo o desenvolvimento de códigos e/ou materiais apresentados via **Google Meet** serão disponibilizados imediatamente após o término das aulas.
+Este material é uma iniciativa independente para auxiliar os alunos, visando facilitar o acesso e o acompanhamento das atividades ministradas via **Google Meet**. Portanto, **não se caracteriza como material oficial da instituição.** Todo o desenvolvimento de códigos e/ou materiais apresentados via **Google Meet** serão disponibilizados imediatamente após o término das aulas.
 
 ## Instalação do Ambiente Fluttrer
 * [Instalação do Flutter + Android](https://medium.com/flutter-comunidade-br/instalando-e-configurando-flutter-no-windows-cae74711df1e#:~:text=Instala%C3%A7%C3%A3o%20do%20Android%20SDK&text=Nesta%20tela%20na%20parte%20de,Packages%20perto%20do%20bot%C3%A3o%20OK
