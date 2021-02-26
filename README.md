@@ -18,7 +18,7 @@ Este material é uma iniciativa independente para auxiliar os alunos, visando fa
 )
 
 ## Certificações Diversas (Gratuitas e Pagas)
-+ [CertiProf](https://certiprof.com/) - Certificações (Scrum e Devops estão gratuitos)
++ [CertiProf](https://certiprof.com/)
 + [Mackenzie Cursos Gratuitos](https://www.mackenzie.br/noticias/artigo/n/a/i/mackenzie-disponibiliza-14-cursos-livres-gratuitos-com-certificacao/)
 
 ## eBooks
