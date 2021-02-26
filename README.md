@@ -21,9 +21,6 @@
 )
 
 ## Links gerais
-* [Compilador Java Online](https://www.onlinegdb.com/) - Desenvolvimento de códigos Java Online (Não substitui o Netbeans)
-* [Framework Bootstrap](https://getbootstrap.com/) - *Framework* para desenvolvimento do *Front-End*
-* [LightShot](https://prnt.sc/) - Compartilhar **Print** de Tela Online
 + [Gartner Group](https://www.gartner.com/en)
 + [Forbes](https://forbes.com.br/)
 + [Medium](https://medium.com/)
