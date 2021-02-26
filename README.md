@@ -19,10 +19,10 @@ Este material é uma iniciativa independente para auxiliar os alunos, visando fa
 
 ## Certificações Diversas (Gratuitas e Pagas)
 + [CertiProf](https://certiprof.com/)
-+ [Mackenzie Cursos Gratuitos](https://www.mackenzie.br/noticias/artigo/n/a/i/mackenzie-disponibiliza-14-cursos-livres-gratuitos-com-certificacao/)
++ [Mackenzie](https://www.mackenzie.br/noticias/artigo/n/a/i/mackenzie-disponibiliza-14-cursos-livres-gratuitos-com-certificacao/)
 
 ## eBooks
-+ [Goal Kicker](https://goalkicker.com/) - Diversos eBooks completos sobre programação (Gratuito)
++ [Goal Kicker - eBooks completos sobre programação (Gratuito)](https://goalkicker.com/)
 
 ## Links Importantes sobre Tecnologia
 + [Gartner Group](https://www.gartner.com/en)
