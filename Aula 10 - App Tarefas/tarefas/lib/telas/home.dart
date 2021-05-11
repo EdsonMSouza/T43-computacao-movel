@@ -151,6 +151,69 @@ class _HomeState extends State<Home> {
 
   // construção da interface do usuário
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Lista de Tarefas"),
+        centerTitle: true,
+      ),
+      body: Builder(
+        builder: (context) => Column(
+          children: [
+            Container(
+              padding: EdgeInsets.fromLTRB(17.0, 1.0, 7.0, 1.0),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: TextField(
+                      controller: _toDoController,
+                      maxLength: 50,
+                      decoration: InputDecoration(labelText: "Nova Tarefa"),
+                    ),
+                  ),
+                  Container(
+                    height: 45.0,
+                    width: 45.0,
+                    child: FloatingActionButton(
+                      child: Icon(Icons.save),
+                      // salvar o texto na lista
+                      onPressed: () {
+                        if (_toDoController.text.isEmpty) {
+                          final alerta = SnackBar(
+                            content: Text("Digite uma tarefa!!!"),
+                            duration: Duration(seconds: 4),
+                            action: SnackBarAction(
+                              label: "OK",
+                              onPressed: () {
+                                ScaffoldMessenger.of(context)
+                                    .removeCurrentSnackBar();
+                              },
+                            ),
+                          );
+                          ScaffoldMessenger.of(context).removeCurrentSnackBar();
+                          ScaffoldMessenger.of(context).showSnackBar(alerta);
+                        } else {
+                          _adicionarTarefa();
+                        }
+                      },
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Padding(padding: EdgeInsets.only(top: 10.0)),
+            Expanded(
+              child: RefreshIndicator(
+                onRefresh: _recarregaLista,
+                child: ListView.builder(
+                  itemBuilder: widgetTarefa,
+                  itemCount: _toDoList.length,
+                  padding: EdgeInsets.only(top: 10.0),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
